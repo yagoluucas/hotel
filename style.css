@@ -88,7 +88,7 @@ main #secao1 #conteudo-desktop {
 }
 
 #secao2 p {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 1%;
     text-align: justify;
@@ -320,6 +320,10 @@ footer #baixo {
         transition: 0s;
         border: 0.5vw solid #b2afaf;
     }
+
+    #secao2{
+        text-align: center;
+    }
     
     #secao3{
         background:#F5F5F5 ;
@@ -327,9 +331,16 @@ footer #baixo {
         display: block;
     }
 
+    #secao3 p.lead { 
+        border: 1px solid red;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0;
+    }
+
     #eventos {
         display: block;
-        
     }
 
     #evento1, #evento2, #evento3 {
@@ -366,7 +377,7 @@ footer #baixo {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 2%;
+    padding: 2% 11%;
     }
 
     #suites a{
@@ -449,11 +460,7 @@ footer #baixo {
     footer #esquerda a, #meio a,footer #direita a{
         text-align: center;
     }
-    
-    footer .navbar-nav a:hover {
-    padding-left: 0;
-}
-    
+
     #meio {
         border: none;
     }
