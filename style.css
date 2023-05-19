@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav img {
+   margin-left:1%;
+}
+
+main {
+    width: 100%;
+}
+
+.h1, .h2, .h3, .h4, .h5 {
+    font-family: Montserrat;
+}
+
+main a {
+    text-decoration: none;
+    color: #ad9677;
+    transition: 0.4s;
+}
+
+main a:hover {
+    transition: 1s;
+    color: #eed5b8;
+}
+
+nav .navbar-toggler {
+    margin-right: 1%; 
+    background-color: #007bff;
+}
+
+
+/* inicio seção 1 */
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1% 0 1% ;
+    background: rgba(240, 248, 255, 0.8);
+    margin-top: 45%;
+    border-radius: 1vw;
+}
+
+form div.input {
+    width: 32.2%;
+}
+
+form #dados-necessarios-reserva {
+    padding: 0;
+    display: flex; 
+    justify-content: space-between; 
+    width: 84%;
+}
+
+main #secao1 {
+   background:linear-gradient(-180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(imagens/hotel1200.webp) left top;
+   background-size: cover;
+   display: flex;
+   border-radius: 1vw;
+   height: 720px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+main #secao1 #conteudo-desktop {
+    width: 80%;
+}
+
+#secao1 .botao {
+    width: 15%;
+}
+
+#conteudo-mobile, #conteudo-mobile-quarto {
+    display: none;
+}
+
+/* fim seção 1 */
+
+/* inicio seção 2 */
+
+#secao2 {
+    margin: 0 auto;
+}
+
+#secao2 h2 {
+    text-align: center;
+}
+
+#secao2 p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1%;
+    text-align: justify;
+}
+
+/* fim seção 2 */
+
+/* inicio seção 3 */
+
+#secao3{
+    background:#F5F5F5 ;
+    padding: 5% 0;
+}
+
+#secao3 #ultimos {
+    text-align: center;
+}
+
+#eventos {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+} 
+
+#eventos img {
+    margin-bottom: 10%;
+}
+
+#evento1, #evento2, #evento3 {
+    width: 28%;
+    margin-top: 1%;
+    background: #ffffff;
+}
+
+#eventos .evento-texto {
+    width: 90%; 
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+/* fim seção 3 */
+
+/* inicio seção 4 */
+
+#quarto {
+    background: url(imagens/3.webp) no-repeat top left;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 800px;
+    width: 90%;
+    margin: 4% auto;
+    margin-top: 0;
+}
+
+#suites {
+    width: 30%;
+    float: right;
+    background: #fff;
+    left: 70%;
+    padding: 1%;
+}
+
+#secao4 .h3 {
+    text-align: center; 
+    padding: 1% 0;
+}
+
+/* fim seção 4 */
+
+/* Inicio seção 5 */
+#secao5 {
+    width: 100%;
+    background:#F5F5F5;
+}
+
+#secao5 h3 {
+    padding: 1% 0;
+    text-align: center;
+}
+
+
+#gastronomia .conteudo {
+    display: flex;
+}
+
+.conteudo1, .conteudo4, .conteudo3, .conteudo2 {
+    width: 50%;
+}
+
+#gastronomia {
+    border: 1px solid #000;
+}
+
+.conteudo2, .conteudo3 {
+   padding: 5%;
+   padding-bottom: 3%;
+}
+
+/* Fim seção 5 */
+
+/* Inicio seção 6 */
+
+#secao6 {
+    width: 100%;
+    padding: 2%;
+}
+
+#secao6 .h2 {
+    text-align: center;
+    letter-spacing: 0.2vw;
+} 
+
+
+#localidade {
+    margin: 3% auto;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+#localidade p {
+    line-height: 1.5vw;
+    margin-top:4%;
+    text-align: justify; 
+}
+
+
+#praia, #local {
+    background:#F5F5F5;
+    width: 47%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 1vw;
+}
+
+/* fim seção 6 */
+
+/* Inicio do rodapé */
+footer {
+    background: linear-gradient(45deg,#000080, #0d5bc0);
+    color: #fff;
+}
+
+footer #cima {
+    padding-top: 1.7%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer #esquerda, #meio,footer #direita {
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+#esquerda {
+    padding-left: 5%;
+}
+
+footer .navbar-nav a {
+    color: #fff;
+    display: block;
+    margin-bottom: 2%;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: justify;
+}
+
+footer .navbar-nav a:hover {
+    padding-left: 2%;
+}
+
+footer #esquerda, #meio {
+    padding: 0 3%;
+    border-right: 2px solid white;
+}
+
+footer #baixo {
+    text-align: center;
+    background: #000;
+    padding: 0.5% 0;
+}
+
+.icone {
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+    padding-left: 1%;
+}
+
+/* fim do rodapé */
+
+@media (max-width: 800px) {
+    #conteudo-desktop {
+        display: none;
+    }
+
+    #conteudo-mobile {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #conteudo-mobile .reserva-mobile{
+        background:none;
+        padding: 3%;
+        text-align: center;
+        position: relative;
+        top: 80%;
+    }
+
+    .reserva-mobile a {
+        color: #fff;
+        transition: 0s;
+        padding: 3% 15%;
+        border: 0.5vw solid #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .reserva-mobile a:active {
+        color: #b2afaf;
+        transition: 0s;
+        border: 0.5vw solid #b2afaf;
+    }
+    
+    #secao3{
+        background:#F5F5F5 ;
+        padding: 5% 0;
+        display: block;
+    }
+
+    #eventos {
+        display: block;
+        
+    }
+
+    #evento1, #evento2, #evento3 {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 7%;
+    }
+
+    main #secao1 {
+        background:linear-gradient(-180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(imagens/pagina540px.webp) left bottom no-repeat;
+        display: flex;
+        border-radius: 2vw;
+        width: 95%;
+        margin: 0 auto;
+        height: 600px;
+     }
+
+     form {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        background: rgba(240, 248, 255, 0.8);
+        border-radius: 1vw;
+        width: 50%;
+    }
+
+    #quarto {
+        background: url(imagens/3-620.webp) no-repeat top center;
+        height:354px;    
+    }
+
+    #suites {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2%;
+    }
+
+    #suites a{
+        color: #f8ebdd;
+        transition: 0s;
+    }
+
+    #suites a:active{
+        color: #e2b381;
+    }
+
+    #secao5 h3{
+        margin:0;
+    }
+
+    .conteudo2 {
+        padding: 1% 5%;
+    }
+
+    .conteudo3 {
+        padding:2% 5%;
+    }
+
+    #gastronomia {
+        border: none;
+    }
+
+    #gastronomia .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo1, .conteudo2, .conteudo3, .conteudo4 {
+        width: 100%;
+    }
+
+    .conteudo2 {
+        order: -1;
+        border: none;
+    }
+
+    #secao6 h3.h2{
+        margin-top: 2%;
+    }
+
+    #localidade {
+        display: block;
+    }
+
+    #local, #praia {
+        width: 95%;
+        font-size: 2.5vw;
+        margin-top: 10%;
+    }
+
+    #local p, #praia p {
+        line-height: 5vw;
+        font-size: 2.5vw;
+        margin-top: 1%;
+    }
+
+    #local {
+        margin-bottom: 10%;
+    }
+    
+    footer #cima {
+        padding-top: 4%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer #esquerda, #meio,footer #direita {
+        width: 30%;
+        margin:2.5% auto;
+        text-align: center;
+        padding: 1%;
+    }
+
+    footer #esquerda a, #meio a,footer #direita a{
+        text-align: center;
+    }
+
+    #meio {
+        border: none;
+    }
+
+    footer #direita {
+        border-left: 2px solid #fff;
+    }
+
+     #baixo {
+        padding: 2% 0;
+    }
+} 
+
+@media (min-width: 801px) and (max-width: 1400px) {
+
+    #conteudo-desktop {
+        display: none;
+    }
+
+    .reserva-mobile a:hover {
+        color: #fff;
+    }
+
+    .reserva-mobile a:active {
+        color: #cecaca;
+        transition: 0s;
+        border: 0.5vw solid #cecaca;
+    }
+
+    #conteudo-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    #conteudo-mobile .reserva-mobile{
+        text-align: center;
+        position: relative;
+        top: 90%;
+    }
+
+    .reserva-mobile a {
+        color: #fff;
+        transition: 0s;
+        padding: 1.5% 15%;
+        border: 0.5vw solid #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    #secao3{
+        background:#F5F5F5;
+        padding: 5% 0;
+        width: 100%;
+    }
+
+    #eventos {
+        width: 100%;
+    }
+
+    #evento1, #evento2, #evento3 {
+        width: 100%;
+        margin: 0 2%;
+        margin-top: 7%;
+    }
+
+    #quarto {
+        display: none;  
+    }
+
+    #conteudo-mobile-quarto {
+        display: flex;
+    }
+
+    #conteudo-mobile-quarto .quarto-mobile1, .quarto-mobile2 {
+        width: 50%;
+    }
+
+    .quarto-mobile1 {
+        padding: 0% 2%;
+    }
+
+    .quarto-mobile1 p{
+       margin-bottom: 1.3%;
+    }
+    
+    #secao5 h3 {
+        padding-top: 2.5%;
+    }
+    
+    #secao5 img {
+        height: 100%;
+    }
+    
+    .conteudo2, .conteudo3 {
+        padding: 1%
+        3%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #secao6 {
+        width: 100%;
+        padding: 2% 1%;
+    }
+    
+    #localidade {
+        display: block;
+    }
+
+    #secao6 .h2 {
+        text-align: center;
+        letter-spacing: 0.2vw;
+    } 
+    
+    #localidade p {
+        margin-top:4%;
+        text-align: justify;
+        line-height: 2.5vw;
+    }
+    
+    #praia, #local {
+        padding: 1% 2%;
+        height: 100%;
+        width: 75%;
+        margin-top: 5%;
+    }
+
+    #praia #imagem-grande-e-pequena {
+        background: none;
+    }
+    
+}
