@@ -449,7 +449,11 @@ footer #baixo {
     footer #esquerda a, #meio a,footer #direita a{
         text-align: center;
     }
-
+    
+    footer .navbar-nav a:hover {
+    padding-left: 0;
+}
+    
     #meio {
         border: none;
     }
