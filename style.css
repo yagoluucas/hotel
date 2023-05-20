@@ -479,6 +479,10 @@ footer #baixo {
     footer #esquerda a:hover, #meio a:hover{
         padding: 0;
     }
+
+    #redes-sociais .icone{
+        margin-right: 0.4%;
+    }
      #baixo {
         padding: 2% 0;
     }
