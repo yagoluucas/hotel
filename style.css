@@ -13,6 +13,7 @@ main {
 
 .h1, .h2, .h3, .h4, .h5 {
     font-family: Montserrat;
+    text-align: center;
 }
 
 main a {
@@ -83,10 +84,6 @@ main #secao1 #conteudo-desktop {
     margin: 0 auto;
 }
 
-#secao2 h2 {
-    text-align: center;
-}
-
 #secao2 p {
     width: 80%;
     margin: 0 auto;
@@ -113,6 +110,10 @@ main #secao1 #conteudo-desktop {
     width: 75%;
     margin: 0 auto;
 } 
+
+#eventos h3 {
+    text-align: left;
+}
 
 #eventos img {
     margin-bottom: 10%;
@@ -324,16 +325,20 @@ footer #baixo {
     #secao2{
         text-align: center;
     }
+
+    #secao2 p {
+        width: 85%;
+    }
     
     #secao3{
         background:#F5F5F5 ;
         padding: 5% 0;
         display: block;
+        width: 100%;
     }
 
     #secao3 p.lead { 
-        border: 1px solid red;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
         text-align: justify;
         padding: 0;
@@ -341,10 +346,11 @@ footer #baixo {
 
     #eventos {
         display: block;
+        width: 100%;
     }
 
     #evento1, #evento2, #evento3 {
-        width: 95%;
+        width: 83%;
         margin: 0 auto;
         margin-top: 7%;
     }
@@ -369,7 +375,8 @@ footer #baixo {
 
     #quarto {
         background: url(imagens/3-620.webp) no-repeat top center;
-        height:354px;    
+        height:354px; 
+        width: 83%;
     }
 
     #suites {
@@ -377,7 +384,11 @@ footer #baixo {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 2% 11%;
+    padding: 2% 5%;
+    }
+
+    #suites h3 {
+        text-align: left;
     }
 
     #suites a{
@@ -403,6 +414,7 @@ footer #baixo {
 
     #gastronomia {
         border: none;
+
     }
 
     #gastronomia .conteudo {
@@ -412,6 +424,11 @@ footer #baixo {
 
     .conteudo1, .conteudo2, .conteudo3, .conteudo4 {
         width: 100%;
+    }
+
+    .conteudo2, .conteudo3 {
+        width: 85%;
+        margin: 0 auto;
     }
 
     .conteudo2 {
