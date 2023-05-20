@@ -400,10 +400,6 @@ footer #baixo {
         color: #e2b381;
     }
 
-    #secao5 h3{
-        margin:0;
-    }
-
     .conteudo2 {
         padding: 1% 5%;
     }
@@ -459,33 +455,30 @@ footer #baixo {
     #local {
         margin-bottom: 10%;
     }
-    
+
     footer #cima {
         padding-top: 4%;
-        display: flex;
-        justify-content: space-between;
+        display: block;
         width: 100%;
     }
 
-    footer #esquerda, #meio,footer #direita {
-        width: 30%;
+    footer #esquerda,footer #meio,footer #direita {
+        width: 100%;
         margin:2.5% auto;
         text-align: center;
         padding: 1%;
+        border: none;
+        font-size: 3vw;
     }
 
     footer #esquerda a, #meio a,footer #direita a{
         text-align: center;
     }
 
-    #meio {
-        border: none;
-    }
 
-    footer #direita {
-        border-left: 2px solid #fff;
+    footer #esquerda a:hover, #meio a:hover{
+        padding: 0;
     }
-
      #baixo {
         padding: 2% 0;
     }
