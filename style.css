@@ -135,6 +135,10 @@ main #secao1 #conteudo-desktop {
 
 /* inicio seção 4 */
 
+#secao4 .h1 {
+    margin-top: 2%;
+}
+
 #quarto {
     background: url(imagens/3.webp) no-repeat top left;
     background-size: cover;
@@ -171,6 +175,9 @@ main #secao1 #conteudo-desktop {
     text-align: center;
 }
 
+#secao5 h2 {
+    padding: 1% 0;
+}
 
 #gastronomia .conteudo {
     display: flex;
