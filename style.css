@@ -16,9 +16,15 @@ img {
     max-width: 100%;
 }
 
+p {
+    font-size: 16px;
+}
+
 .h1, .h2, .h3, .h4, .h5 {
     font-family: Montserrat;
     text-align: center;
+    font-size: 20px;
+
 }
 
 main a {
@@ -452,13 +458,12 @@ footer #baixo {
 
     #local, #praia {
         width: 95%;
-        font-size: 2.5vw;
         margin-top: 10%;
+        padding: 2% 5%;
     }
 
     #local p, #praia p {
         line-height: 5vw;
-        font-size: 2.5vw;
         margin-top: 1%;
     }
 
@@ -478,7 +483,6 @@ footer #baixo {
         text-align: center;
         padding: 1%;
         border: none;
-        font-size: 4vw;
     }
 
     footer #esquerda a, #meio a,footer #direita a{
