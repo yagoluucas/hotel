@@ -1,18 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header nav img {
+header nav {
    margin-left:1%;
 }
 
-main {
-    width: 100%;
+main,section,footer {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 16px;
 }
 
 .h1, .h2, .h3, .h4, .h5 {
     font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+
 }
 
 main a {
@@ -83,10 +95,6 @@ main #secao1 #conteudo-desktop {
     margin: 0 auto;
 }
 
-#secao2 h2 {
-    text-align: center;
-}
-
 #secao2 p {
     width: 80%;
     margin: 0 auto;
@@ -114,6 +122,10 @@ main #secao1 #conteudo-desktop {
     margin: 0 auto;
 } 
 
+#eventos h3 {
+    text-align: left;
+}
+
 #eventos img {
     margin-bottom: 10%;
 }
@@ -134,6 +146,10 @@ main #secao1 #conteudo-desktop {
 
 /* inicio seção 4 */
 
+#secao4 .h1 {
+    margin-top: 2%;
+}
+
 #quarto {
     background: url(imagens/3.webp) no-repeat top left;
     background-size: cover;
@@ -146,9 +162,7 @@ main #secao1 #conteudo-desktop {
 
 #suites {
     width: 30%;
-    float: right;
     background: #fff;
-    left: 70%;
     padding: 1%;
 }
 
@@ -170,6 +184,9 @@ main #secao1 #conteudo-desktop {
     text-align: center;
 }
 
+#secao5 h2 {
+    padding: 1% 0;
+}
 
 #gastronomia .conteudo {
     display: flex;
@@ -324,16 +341,20 @@ footer #baixo {
     #secao2{
         text-align: center;
     }
+
+    #secao2 p {
+        width: 85%;
+    }
     
     #secao3{
         background:#F5F5F5 ;
         padding: 5% 0;
         display: block;
+        width: 100%;
     }
 
     #secao3 p.lead { 
-        border: 1px solid red;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
         text-align: justify;
         padding: 0;
@@ -341,10 +362,11 @@ footer #baixo {
 
     #eventos {
         display: block;
+        width: 100%;
     }
 
     #evento1, #evento2, #evento3 {
-        width: 95%;
+        width: 83%;
         margin: 0 auto;
         margin-top: 7%;
     }
@@ -369,7 +391,8 @@ footer #baixo {
 
     #quarto {
         background: url(imagens/3-620.webp) no-repeat top center;
-        height:354px;    
+        height:354px; 
+        width: 83%;
     }
 
     #suites {
@@ -377,7 +400,11 @@ footer #baixo {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 2% 11%;
+    padding: 2% 5%;
+    }
+
+    #suites h3 {
+        text-align: left;
     }
 
     #suites a{
@@ -387,10 +414,6 @@ footer #baixo {
 
     #suites a:active{
         color: #e2b381;
-    }
-
-    #secao5 h3{
-        margin:0;
     }
 
     .conteudo2 {
@@ -403,6 +426,7 @@ footer #baixo {
 
     #gastronomia {
         border: none;
+
     }
 
     #gastronomia .conteudo {
@@ -412,6 +436,11 @@ footer #baixo {
 
     .conteudo1, .conteudo2, .conteudo3, .conteudo4 {
         width: 100%;
+    }
+
+    .conteudo2, .conteudo3 {
+        width: 85%;
+        margin: 0 auto;
     }
 
     .conteudo2 {
@@ -429,46 +458,45 @@ footer #baixo {
 
     #local, #praia {
         width: 95%;
-        font-size: 2.5vw;
         margin-top: 10%;
+        padding: 2% 5%;
     }
 
     #local p, #praia p {
         line-height: 5vw;
-        font-size: 2.5vw;
         margin-top: 1%;
     }
 
     #local {
         margin-bottom: 10%;
     }
-    
+
     footer #cima {
         padding-top: 4%;
-        display: flex;
-        justify-content: space-between;
+        display: block;
         width: 100%;
     }
 
-    footer #esquerda, #meio,footer #direita {
-        width: 30%;
+    footer #esquerda,footer #meio,footer #direita {
+        width: 100%;
         margin:2.5% auto;
         text-align: center;
         padding: 1%;
+        border: none;
     }
 
     footer #esquerda a, #meio a,footer #direita a{
         text-align: center;
     }
 
-    #meio {
-        border: none;
+
+    footer #esquerda a:hover, #meio a:hover{
+        padding: 0;
     }
 
-    footer #direita {
-        border-left: 2px solid #fff;
+    #redes-sociais .icone{
+        margin-right: 0.5%;
     }
-
      #baixo {
         padding: 2% 0;
     }
@@ -552,7 +580,7 @@ footer #baixo {
     }
     
     #secao5 img {
-        height: 100%;
+        max-height: 100%;
     }
     
     .conteudo2, .conteudo3 {
